@@ -2,7 +2,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 20%;
   align-items: center;
   margin: 0 auto;
 }
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+label {
+  color: palevioletred;
+  font-size: 20px;
+  font-family: fantasy 
+}
+
+input {
+  display: flex;
+  background-color: #61dafb;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: #61dafb;
+  
+}
+button:hover {
+  background-color: palevioletred;
+}
+
+h1 {
+  color: #61dafb
 }
