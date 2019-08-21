@@ -49,6 +49,8 @@ input {
   width: 200px;
   height: 30px;
   border-radius: 20px;
+  padding-left: 10px;
+  
 }
 
 button {
@@ -66,3 +68,4 @@ button:hover {
 h1 {
   color: #61dafb
 }
+
